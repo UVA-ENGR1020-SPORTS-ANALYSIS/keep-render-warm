@@ -1,0 +1,8 @@
+name = "keep-render-warm"
+main = "src/index.ts"
+compatibility_date = "2026-04-09"
+compatibility_flags = ["nodejs_compat"]
+
+# Run every 10 minutes to reliably block Render's 15 minute sleep timer
+[triggers]
+crons = ["*/10 * * * *"]
