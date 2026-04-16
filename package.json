@@ -4,11 +4,14 @@
   "private": true,
   "scripts": {
     "deploy": "wrangler deploy",
-    "dev": "wrangler dev"
+    "dev": "wrangler dev",
+    "test": "vitest run"
   },
   "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.14.7",
     "@cloudflare/workers-types": "^4.20240405.0",
     "typescript": "^5.4.5",
+    "vitest": "^4.1.4",
     "wrangler": "^3.50.0"
   }
 }
