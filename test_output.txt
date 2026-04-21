@@ -1,0 +1,34 @@
+
+> keep-render-warm@1.0.0 test
+> vitest run
+
+
+ RUN  v1.5.0 /Users/sachinkhanal/Library/CloudStorage/OneDrive-UniversityofVirginia/UVA Classes/SPRING 2026/ENGR 1020/PROJECT/origin/keep-render-warm
+
+[vpw:inf] Starting isolated runtimes for vitest.config.ts...
+[mf:wrn] The latest compatibility date supported by the installed Cloudflare Workers Runtime is "2024-05-24",
+but you've requested "2026-04-09". Falling back to "2024-05-24"...
+workerd/server/server.c++:2821: error: Fallback service failed to fetch module; payload = ; spec = /?specifier=%2FUsers%2Fsachinkhanal%2FLibrary%2FCloudStorage%2FOneDrive-UniversityofVirginia%2FUVA+Classes%2FSPRING+2026%2FENGR+1020%2FPROJECT%2Forigin%2Fkeep-render-warm%2Fnode_modules%2Fvitest%2Fdist%2Ffile%3A%2FUsers%2Fsachinkhanal%2FLibrary%2FCloudStorage%2FOneDrive-UniversityofVirginia%2FUVA%2520Classes%2FSPRING%25202026%2FENGR%25201020%2FPROJECT%2Forigin%2Fkeep-render-warm%2Fnode_modules%2Fvitest%2Fdist%2Fworkers%2Fthreads.js&referrer=%2FUsers%2Fsachinkhanal%2FLibrary%2FCloudStorage%2FOneDrive-UniversityofVirginia%2FUVA+Classes%2FSPRING+2026%2FENGR+1020%2FPROJECT%2Forigin%2Fkeep-render-warm%2Fnode_modules%2Fvitest%2Fdist%2Fworker.js&raw=file%3A%2F%2F%2FUsers%2Fsachinkhanal%2FLibrary%2FCloudStorage%2FOneDrive-UniversityofVirginia%2FUVA%2520Classes%2FSPRING%25202026%2FENGR%25201020%2FPROJECT%2Forigin%2Fkeep-render-warm%2Fnode_modules%2Fvitest%2Fdist%2Fworkers%2Fthreads.js
+Error running worker: Error: No such module "Users/sachinkhanal/Library/CloudStorage/OneDrive-UniversityofVirginia/UVA Classes/SPRING 2026/ENGR 1020/PROJECT/origin/keep-render-warm/node_modules/vitest/dist/file:/Users/sachinkhanal/Library/CloudStorage/OneDrive-UniversityofVirginia/UVA%20Classes/SPRING%202026/ENGR%201020/PROJECT/origin/keep-render-warm/node_modules/vitest/dist/workers/threads.js".
+    at Module.run (file:///Users/sachinkhanal/Library/CloudStorage/OneDrive-UniversityofVirginia/UVA%20Classes/SPRING%202026/ENGR%201020/PROJECT/origin/keep-render-warm/node_modules/vitest/dist/worker.js:65:30)
+    at RunnerObject.handleVitestRunRequest (file:///Users/sachinkhanal/Library/CloudStorage/OneDrive-UniversityofVirginia/UVA%20Classes/SPRING%202026/ENGR%201020/PROJECT/origin/keep-render-warm/node_modules/@cloudflare/vitest-pool-workers/dist/worker/index.mjs:337:22)
+
+⎯⎯⎯⎯⎯⎯ Unhandled Errors ⎯⎯⎯⎯⎯⎯
+
+Vitest caught 1 unhandled error during the test run.
+This might cause false positive tests. Resolve unhandled errors to make sure your tests are not affected.
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: No such module "Users/sachinkhanal/Library/CloudStorage/OneDrive-UniversityofVirginia/UVA Classes/SPRING 2026/ENGR 1020/PROJECT/origin/keep-render-warm/node_modules/vitest/dist/file:/Users/sachinkhanal/Library/CloudStorage/OneDrive-UniversityofVirginia/UVA%20Classes/SPRING%202026/ENGR%201020/PROJECT/origin/keep-render-warm/node_modules/vitest/dist/workers/threads.js".
+ ❯ Module.run ../../../../../../UVA%20Classes/SPRING%202026/ENGR%201020/PROJECT/origin/keep-render-warm/node_modules/vitest/dist/worker.js:65:30
+ ❯ RunnerObject.handleVitestRunRequest ../../../../../../UVA%20Classes/SPRING%202026/ENGR%201020/PROJECT/origin/keep-render-warm/node_modules/@cloudflare/vitest-pool-workers/dist/worker/index.mjs:337:22
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+ Test Files  no tests
+      Tests  no tests
+     Errors  1 error
+   Start at  15:10:03
+   Duration  403ms (transform 0ms, setup 0ms, collect 0ms, tests 0ms, environment 0ms, prepare 0ms)
+
+[vpw:dbg] Shutting down runtimes...
